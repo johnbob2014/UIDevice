@@ -7,25 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B04D55F1CFED5B300196483 /* UIDevice+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B04D55E1CFED5B300196483 /* UIDevice+Orientation.m */; };
 		4B276BD31CFE8B1800D2854A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B276BD21CFE8B1800D2854A /* main.m */; };
-		4B276BD61CFE8B1800D2854A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B276BD51CFE8B1800D2854A /* AppDelegate.m */; };
-		4B276BD91CFE8B1800D2854A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B276BD81CFE8B1800D2854A /* ViewController.m */; };
-		4B276BDC1CFE8B1800D2854A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B276BDA1CFE8B1800D2854A /* Main.storyboard */; };
 		4B276BDE1CFE8B1800D2854A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B276BDD1CFE8B1800D2854A /* Assets.xcassets */; };
 		4B276BE11CFE8B1800D2854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B276BDF1CFE8B1800D2854A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B04D55D1CFED5B300196483 /* UIDevice+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Orientation.h"; path = "00-Orientation/UIDevice+Orientation.h"; sourceTree = "<group>"; };
+		4B04D55E1CFED5B300196483 /* UIDevice+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Orientation.m"; path = "00-Orientation/UIDevice+Orientation.m"; sourceTree = "<group>"; };
 		4B276BCE1CFE8B1800D2854A /* UIDevice-C14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIDevice-C14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B276BD21CFE8B1800D2854A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4B276BD41CFE8B1800D2854A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4B276BD51CFE8B1800D2854A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B276BD71CFE8B1800D2854A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B276BD81CFE8B1800D2854A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4B276BDB1CFE8B1800D2854A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B276BDD1CFE8B1800D2854A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B276BE01CFE8B1800D2854A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B276BE21CFE8B1800D2854A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B276BEC1CFE8FFA00D2854A /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		4B276BED1CFE904A00D2854A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B04D5601CFED5BB00196483 /* 00-Orientation */ = {
+			isa = PBXGroup;
+			children = (
+				4B04D55D1CFED5B300196483 /* UIDevice+Orientation.h */,
+				4B04D55E1CFED5B300196483 /* UIDevice+Orientation.m */,
+			);
+			name = "00-Orientation";
+			sourceTree = "<group>";
+		};
 		4B276BC51CFE8B1800D2854A = {
 			isa = PBXGroup;
 			children = (
@@ -58,25 +64,15 @@
 		4B276BD01CFE8B1800D2854A /* UIDevice-C14 */ = {
 			isa = PBXGroup;
 			children = (
-				4B276BD41CFE8B1800D2854A /* AppDelegate.h */,
-				4B276BD51CFE8B1800D2854A /* AppDelegate.m */,
-				4B276BD71CFE8B1800D2854A /* ViewController.h */,
-				4B276BD81CFE8B1800D2854A /* ViewController.m */,
-				4B276BDA1CFE8B1800D2854A /* Main.storyboard */,
+				4B04D5601CFED5BB00196483 /* 00-Orientation */,
+				4B276BEC1CFE8FFA00D2854A /* Utility.h */,
+				4B276BED1CFE904A00D2854A /* PrefixHeader.pch */,
+				4B276BD21CFE8B1800D2854A /* main.m */,
 				4B276BDD1CFE8B1800D2854A /* Assets.xcassets */,
 				4B276BDF1CFE8B1800D2854A /* LaunchScreen.storyboard */,
 				4B276BE21CFE8B1800D2854A /* Info.plist */,
-				4B276BD11CFE8B1800D2854A /* Supporting Files */,
 			);
 			path = "UIDevice-C14";
-			sourceTree = "<group>";
-		};
-		4B276BD11CFE8B1800D2854A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4B276BD21CFE8B1800D2854A /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +106,7 @@
 				TargetAttributes = {
 					4B276BCD1CFE8B1800D2854A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9R3WHNFTF3;
 					};
 				};
 			};
@@ -138,7 +135,6 @@
 			files = (
 				4B276BE11CFE8B1800D2854A /* LaunchScreen.storyboard in Resources */,
 				4B276BDE1CFE8B1800D2854A /* Assets.xcassets in Resources */,
-				4B276BDC1CFE8B1800D2854A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B276BD91CFE8B1800D2854A /* ViewController.m in Sources */,
-				4B276BD61CFE8B1800D2854A /* AppDelegate.m in Sources */,
+				4B04D55F1CFED5B300196483 /* UIDevice+Orientation.m in Sources */,
 				4B276BD31CFE8B1800D2854A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +153,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B276BDA1CFE8B1800D2854A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B276BDB1CFE8B1800D2854A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B276BDF1CFE8B1800D2854A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -265,6 +252,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "UIDevice-C14/PrefixHeader.pch";
 				INFOPLIST_FILE = "UIDevice-C14/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BobZhang.UIDevice-C14";
@@ -276,6 +265,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "UIDevice-C14/PrefixHeader.pch";
 				INFOPLIST_FILE = "UIDevice-C14/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BobZhang.UIDevice-C14";
@@ -302,6 +293,7 @@
 				4B276BE71CFE8B1800D2854A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
