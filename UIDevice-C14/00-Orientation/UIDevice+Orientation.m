@@ -9,5 +9,9 @@
 #import "UIDevice+Orientation.h"
 
 @implementation UIDevice (Orientation)
-
+#pragma mark - Current Angle
+CGFloat device_angle;
+- (void)parseAccelerometerData:(CMAccelerometerData *)accelerometerData{
+    
+}
 @end
